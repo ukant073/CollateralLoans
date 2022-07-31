@@ -1,0 +1,5 @@
+﻿Steps for adding a new CollateralSubclass
+	1. Create CollateralSubclass in Model namespace
+	2. Create ISubCollateralDao<CollateralSubclass> implementation in DAL.Dao namespace
+	3. Create CollateralSubclassController in Controllers namespace
+	4. Add ISubCollateralDao<CollateralSubclass> implementation to dependency injection in Startup.cs
